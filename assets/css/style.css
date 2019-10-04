@@ -1,6 +1,7 @@
 body {
+    margin: 0;
     background-image: url("../images/background.jpg");
-    background-position: 60% 0%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
     background-color: black;
     background-size: 102.5%;
@@ -17,39 +18,66 @@ body {
     margin-left: 39.66%;
     /* margin-right: 50%; */
     /* margin: auto; */
-    margin-top: 18.5%;
+    margin-top: 15%;
 }
 
 .icons {
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     width: 98.5%;
     height: 1%;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.icons i {
 }
 
 ul i {
     padding: 2.6%;
-    margin-top: 1.8%;
+    /* margin-top: 1.8%; */
     font-size:35px;
+    /* opacity: 0.5; */
+}
+ul i p{
+    /* color: rgba(255, 255, 255, 0.8); */
 }
 
 .menu-text{
     font-family: 'Roboto', sans-serif;
     font-size:16px;
     color: white;
-    line-height: 1.7em;
+    line-height: 1.7px;
     font-weight: normal;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 1);
+    /* text-align: right; */
+}
+
+.topbar ol {
+    margin: 0;
+    list-style-type: none;
 }
 
 .topbar{
-    margin-top: 0 auto;
+    /* float: right; */
+    overflow: hidden;
+    /* margin-top: 0 auto; */
     list-style-type: none;
     background-color: white;
-    border: solid;
 
     color: black;
+    height: 40px;
+    /* text-align: right; */
+}
 
-    text-align: right;
+.topbar a {
+    float: right;
+    color: white;
+    background-color: lightgray;
+    padding: 10px 10px;
+    /* text-align: center; */
+    /* font-size: 1px; */
+}
+
+.topbar ol li a i {
+    font-size: 15px;
 }
