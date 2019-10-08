@@ -29,8 +29,8 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.icons i {
-}
+/* .icons i {
+} */
 
 ul i {
     padding: 2.6%;
@@ -38,9 +38,10 @@ ul i {
     font-size:35px;
     /* opacity: 0.5; */
 }
-ul i p{
-    /* color: rgba(255, 255, 255, 0.8); */
-}
+
+/* ul i p{
+    color: rgba(255, 255, 255, 0.8); 
+} */
 
 .menu-text{
     font-family: 'Roboto', sans-serif;
